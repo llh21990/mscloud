@@ -7,6 +7,7 @@
   <groupId>com.llh.springcloud</groupId>
   <artifactId>mscloud</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>Maven</name>
   <!-- FIXME change it to the project's website -->
@@ -52,11 +53,5 @@
     </plugins>
   </build>
 
-  <reporting>
-    <plugins>
-      <plugin>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </reporting>
+
 </project>
