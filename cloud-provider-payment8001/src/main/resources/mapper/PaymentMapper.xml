@@ -9,7 +9,7 @@
     </insert>
 
     <resultMap id="BaseResultMap" type="com.llh.springcloud.entities.Payment">
-        <id column="id" property="id" jdbcType="INT"/>
+        <id column="id" property="id" jdbcType="INTEGER"/>
         <id column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>
     <select id="getById" parameterType="Long" resultMap="BaseResultMap">
